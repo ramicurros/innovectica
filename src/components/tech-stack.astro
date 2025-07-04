@@ -1,0 +1,187 @@
+---
+import AstroLogo from "../assets/logos/astro-logo.svg";
+import NETLogo from "../assets/logos/net-logo.svg";
+import ReactLogo from "../assets/logos/react-logo.svg";
+import AWSLogo from "../assets/logos/aws.svg";
+import CSharpLogo from "../assets/logos/c-sharp-logo.svg";
+import WordpressLogo from "../assets/logos/wordpress-logo.svg";
+import StripeLogo from "../assets/logos/stripe.svg";
+---
+
+<!-- ============================================ --><!--                   Logos                      --><!-- ============================================ -->
+<section id="logos-572">
+    <div class="cs-container">
+        <!--Ideally you want to use svg's for the file path image, which is why these aren't wrapped in picture elements for different screen sizes-->
+        <div class="logo-container">
+            <img
+                class="cs-logo"
+                src={NETLogo.src}
+                alt="logo"
+                width={NETLogo.width}
+                height={NETLogo.height}
+                loading="lazy"
+                decoding="async"
+            />
+            <img
+                class="cs-logo astro-logo"
+                src={AstroLogo.src}
+                alt="logo"
+                width={AstroLogo.width}
+                height={AstroLogo.height}
+                decoding="async"
+            />
+            <img
+                class="cs-logo"
+                src={ReactLogo.src}
+                alt="logo"
+                width={ReactLogo.width}
+                height={ReactLogo.height}
+                decoding="async"
+            />
+            <img
+                class="cs-logo"
+                src={AWSLogo.src}
+                alt="logo"
+                width={AWSLogo.width}
+                height={AWSLogo.height}
+                decoding="async"
+            />
+            <img
+                class="cs-logo"
+                src={CSharpLogo.src}
+                alt="logo"
+                width={CSharpLogo.width}
+                height={CSharpLogo.height}
+                decoding="async"
+            />
+            <img
+                class="cs-logo wordpress-logo"
+                src={WordpressLogo.src}
+                alt="logo"
+                width={WordpressLogo.width}
+                height={WordpressLogo.height}
+                decoding="async"
+            />
+            <img
+                class="cs-logo"
+                src={StripeLogo.src}
+                alt="logo"
+                width={StripeLogo.width}
+                height={StripeLogo.height}
+                decoding="async"
+            />
+        </div>
+        <div class="logo-container">
+            <img
+                class="cs-logo"
+                src={NETLogo.src}
+                alt="logo"
+                width={NETLogo.width}
+                height={NETLogo.height}
+                loading="lazy"
+                decoding="async"
+            />
+            <img
+                class="cs-logo astro-logo"
+                src={AstroLogo.src}
+                alt="logo"
+                width={AstroLogo.width}
+                height={AstroLogo.height}
+                decoding="async"
+            />
+            <img
+                class="cs-logo"
+                src={ReactLogo.src}
+                alt="logo"
+                width={ReactLogo.width}
+                height={ReactLogo.height}
+                decoding="async"
+            />
+            <img
+                class="cs-logo"
+                src={AWSLogo.src}
+                alt="logo"
+                width={AWSLogo.width}
+                height={AWSLogo.height}
+                decoding="async"
+            />
+            <img
+                class="cs-logo"
+                src={CSharpLogo.src}
+                alt="logo"
+                width={CSharpLogo.width}
+                height={CSharpLogo.height}
+                decoding="async"
+            />
+            <img
+                class="cs-logo wordpress-logo"
+                src={WordpressLogo.src}
+                alt="logo"
+                width={WordpressLogo.width}
+                height={WordpressLogo.height}
+                decoding="async"
+            />
+            <img
+                class="cs-logo"
+                src={StripeLogo.src}
+                alt="logo"
+                width={StripeLogo.width}
+                height={StripeLogo.height}
+                decoding="async"
+            />
+        </div>
+    </div>
+</section>
+
+<style>
+    /*-- -------------------------- -->
+<---           Logos            -->
+<--- -------------------------- -*/
+
+    /* Mobile - 360px */
+    @media only screen and (min-width: 0rem) {
+        #logos-572 {
+            /* 60px - 130px */
+            background-color: #e9e9e9;
+        }
+        #logos-572 .cs-container {
+            width: 100%;
+            display: flex;
+            overflow: hidden;
+            gap: 4rem;
+            /* 48px - 64px */
+            padding: 2rem 0rem;
+        }
+        #logos-572 .logo-container {
+            min-width: 100%;
+            gap: 4rem;
+            flex: none;
+            justify-content: space-around;
+            animation: marquee 30s linear infinite;
+            display: flex;
+        }
+        #logos-572 .cs-logo {
+            width: 5rem;
+            max-width: 90%;
+            height: auto;
+            margin: 0;
+            display: block;
+        }
+        #logos-572 .wordpress-logo {
+            width: 14rem;
+
+        }
+        #logos-572 .astro-logo {
+            width: 9rem;
+
+        }
+        @keyframes marquee {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(calc(-100% - 4rem));
+            }
+        }
+    }
+</style>
